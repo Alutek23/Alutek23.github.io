@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2? family= Edu+SA+Beginner:wght@500 & family= VT323 & display=swap');
+body{ 
+background-color: rgb(12, 14, 105);
+font-family: 'Edu SA Beginner', cursive;
+    font-family: 'VT323', monospace;
+}
+header{
+    background-color: rgb(14, 60, 129);
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'VT323', monospace;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}  
+
+header ul li{
+    margin: 30px;
+}
+a{text-decoration: none;
+}
+main{
+    background-color: rgb(12, 8, 63);
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'VT323', monospace;
+}
+footer{
+    background-color: rgb(15, 15, 88);
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'VT323', monospace;
+    font-size: 8px ;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    text-decoration: none;
+}
+
+p{
+    color: #0b0b2c;
+font-weight: 700;
+font-family: 'Edu SA Beginner', cursive;
+    font-family: 'VT323', monospace;
+}
+#barandalblanco { 
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    border-color: rgb(6, 5, 70);
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'VT323', monospace;
+}
+#ubicacion { 
+    border-radius: 100px;
+    border-color: rgb(14, 5, 95);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+justify-content: center;
+align-items: center;
+align-content: center;
+display: flex;
+text-decoration: none;
+}
+#contacto{
+   font-size: 24px;
+   color: rgb(38, 40, 196);
+   font-family: Arial, Helvetica, sans-serif;
+}
+#modelos{
+border-color: rgb(6, 29, 83);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+justify-content: center;
+align-items: center;
+align-content: center;
+display: flex;
+text-decoration: none;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(230, 230, 235);
+}
+.caja{
+   width: 80%;
+   height: 80%;
+   padding: 10px;
+  flex-direction: column;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.caja img{
+    border-radius: 50%;
+}
+.caja p{
+    font-size: 20px;
+}
